@@ -1,9 +1,10 @@
 {
   "name": "craftql",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "pages/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
     "postinstall": "ln -sf ../../hooks/prepare-commit-msg .git/hooks/prepare-commit-msg"
   },
   "keywords": [],
@@ -23,7 +24,9 @@
   "devDependencies": {
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
-    "git-cz": "^4.9.0"
+    "git-cz": "^4.9.0",
+    "create-react-app": "^5.0.1",
+    "react-scripts": "^5.0.1"
   },
   "config": {
     "commitizen": {
